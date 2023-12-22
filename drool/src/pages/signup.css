@@ -1,0 +1,72 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 0;
+}
+
+.signup-container h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: black;
+}
+
+.inputs-groupe {
+  margin: 25px 0;
+}
+
+.form-label {
+  margin-bottom: 0.2rem !important;
+}
+
+.form-inputs input {
+  width: 466px !important;
+  height: 48px !important;
+  border-radius: 0 !important;
+  border: 1px solid black;
+}
+
+/* .form-inputs input:hover {
+  border: 1px solid black !important;
+} */
+
+.bt-primary {
+  width: 100%;
+  background: #000;
+  border-radius: 50px;
+  min-width: 466px;
+  /* padding: 11px 37px; */
+  color: #fff;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 10px 35px;
+  max-width: 13rem;
+  line-height: 1.5rem;
+}
+
+.bt-primary:hover {
+  background-color: #f2ff00;
+  border: 1px solid black;
+  color: black;
+}
+
+.ant-input-affix-wrapper {
+  width: 466px !important;
+  height: 48px !important;
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  all: unset;
+}
+
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-input:hover {
+    border-color:black;
+}
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-input-affix-wrapper >input.ant-input{
+    all: unset;
+}

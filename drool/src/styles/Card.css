@@ -1,0 +1,143 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card-container h1 {
+  font-size: 26px !important;
+  line-height: 31px !important;
+  max-width: 240px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: black;
+}
+
+.category-card img {
+  padding: 12px;
+}
+.category-card h3 {
+  font-weight: 700 !important;
+  letter-spacing: -0.3px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -70px;
+  text-transform: uppercase;
+  color: black;
+}
+.category-card span {
+  text-decoration: underline;
+  position: relative;
+  top: -70px;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+}
+
+.theme-card h5 {
+  margin: 10px 0;
+  font-weight: 700 !important;
+  letter-spacing: -0.3px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: black;
+}
+.theme-card a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+}
+
+.our-brand-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-brand-card h5 {
+  font-size: 14px !important;
+  margin-top: 15px;
+}
+
+.our-brand-p {
+  font-size: 15px !important;
+  max-width: 400px;
+  text-align: center;
+}
+
+.heart-img {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+/* cart item */
+.cart-contaier {
+  margin: 0 0 8px;
+  padding: 16px 16px;
+}
+
+.cart-contaier img {
+  border: 1px solid #efecf0;
+}
+
+.c1 {
+  margin-left: 15px;
+}
+
+.mini-cart-bag {
+  padding-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.cart-contaier img {
+  width: 97px;
+  height: 137px;
+  border: 1px solid #efecf0;
+}
+.fa-trash {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.minicart-price {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.cart-contaier {
+  background-color: white;
+}
+
+.ant-drawer-body {
+  overflow: hidden;
+}
+
+.card-items {
+  max-height: calc(100vh - 12rem);
+  overflow: auto;
+}
+
+.ant-drawer-content-wrapper {
+  min-width: 400px !important;
+}
+
+.cart-item-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.plusAndMinus {
+  color: black !important;
+  border: 1px solid black;
+  padding: 0px 8px;
+  font-weight: 700;
+  cursor: pointer;
+}

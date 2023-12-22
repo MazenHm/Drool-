@@ -1,0 +1,100 @@
+.header-cart {
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+
+.ant-drawer-body {
+  padding: 0px !important;
+}
+
+.header-cart h3 {
+  margin-top: 12px;
+  color: #000;
+  font-weight: 500;
+  line-height: 1.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+.cart-contaier {
+  margin: 0 0 8px;
+  padding: 16px 16px;
+}
+
+.c1 {
+  margin-left: 15px;
+}
+
+.mini-cart-bag {
+  padding-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.lnr-trash {
+  font-size: 20px;
+}
+
+.minicart-price {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.cart-contaier {
+  background-color: white;
+}
+
+.ant-drawer-body {
+  overflow: hidden;
+}
+
+.card-items {
+  max-height: calc(100vh - 30rem);
+  overflow: auto;
+}
+
+.ant-drawer-content-wrapper {
+  min-width: 480px !important;
+}
+
+.text-mdd {
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  font-weight: 700;
+}
+
+.btt-primary {
+  width: 100%;
+  background: #000;
+  border-radius: 0;
+  color: #fff;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 35px;
+  line-height: 1.5rem;
+}
+
+.btt-primary:hover {
+  background-color: #f2ff00;
+  border: 1px solid black;
+  color: black;
+}
+
+.border-topp {
+  border-top: 1px solid black;
+}

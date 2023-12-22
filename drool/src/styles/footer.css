@@ -1,0 +1,40 @@
+.footer {
+  padding: 65px 105px 25px 25px;
+}
+
+.footer h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  /* margin-bottom: 13px !important; */
+  text-transform: uppercase !important;
+}
+
+.footer p {
+  max-width: 260px;
+}
+
+.footer button {
+  font-weight: 700 !important;
+  padding: 11px 37px !important;
+  font-size: 18px !important;
+  border-radius: 50px !important;
+  text-transform: uppercase;
+  background: #000;
+  color: white;
+  border-style: none;
+}
+.footer button:hover {
+  background-color: #f2ff00;
+  border: 1px solid black;
+  color: black;
+}
+.footer span {
+  text-transform: uppercase;
+}
+
+.footer h2 {
+  margin-top: 55px;
+  font-size: 12px;
+  font-weight: 400 !important;
+  color: black;
+}
